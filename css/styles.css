@@ -44,6 +44,7 @@ a:hover {
 .top-container {
     padding-top: 100px;
     position: relative;
+    box-sizing: border-box;
 }
 
 .intro {
@@ -55,6 +56,8 @@ a:hover {
     background-color: white;
     padding-top: 100px;
     position: relative;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .top-cloud {
@@ -89,6 +92,8 @@ a:hover {
 
 .bottom-container{
     background-color: #66BFBF;
+    width: 100%;
+    max-width: 50%;
     color: #EAF6F6;
     padding: 50px;
 }
